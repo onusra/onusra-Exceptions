@@ -1,3 +1,4 @@
+import java.lang.*;
 public class ExceptionChallenge {
     /**
      * An exception is an unexpected event that occurs during our program.
@@ -20,6 +21,11 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
+    
+    public static void main(String [] args){
+        
+    }
     public void mustThrow(){
+        throw new ArithmeticException();
     }
 }
